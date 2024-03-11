@@ -5,6 +5,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
 
 // components================================
 import { AppComponent } from './app.component';
@@ -25,6 +26,7 @@ import { UserLayoutComponent } from './components/user-layout/user-layout.compon
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    MatCardModule,
   ],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],
