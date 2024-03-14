@@ -1,0 +1,18 @@
+.login-card {
+  align-items: center;
+  text-align: center;
+  padding: 1%;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+}
+
+.example-full-width {
+  width: 80%;
+}
+
+.button-section button {
+  background-color: black;
+  color: azure;
+}

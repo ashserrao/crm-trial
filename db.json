@@ -1,16 +1,28 @@
 {
-  "users": [
+  "posts": [
     {
       "id": "1",
-      "username": "ashlin",
-      "role": "admin",
-      "password": "*Ashlin123"
+      "title": "a title"
     },
     {
       "id": "2",
-      "username": "anush",
-      "role": "user",
-      "password": "*Anush123"
+      "title": "another title"
+    }
+  ],
+  "Users": [
+    {
+      "id": "1",
+      "name": "Anush Serrao",
+      "username": "ashlin_entry",
+      "password": "ashlin_123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "user Serrao",
+      "username": "user_entry",
+      "password": "user_123",
+      "role": "user"
     }
   ]
 }

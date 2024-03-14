@@ -1,5 +1,21 @@
-<div class="w-full flex content-center justify-center">
-    <mat-card class="w-1/4 my-10 bg-purple-800">
-        <mat-card-content>Simple card</mat-card-content>
-    </mat-card>
-</div>
+<mat-card class="login-card">
+  <mat-card-header><h1>Login</h1></mat-card-header>
+  <form [formGroup]="userData" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Username</mat-label>
+      <input matInput placeholder="enter username" formControlName="username" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Password</mat-label>
+      <input
+        type="password"
+        matInput
+        placeholder="enter password"
+        formControlName="password"
+      />
+    </mat-form-field>
+  </form>
+  <div class="button-section" (click)="userAuth()">
+    <button mat-raised-button>Login</button>
+  </div>
+</mat-card>
